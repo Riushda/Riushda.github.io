@@ -11,6 +11,16 @@ body{
   font-family: cow-boy;
 }
 
+body {
+  /* The image used */
+  background-image: url("music.jpg");
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: repeat;
+  background-size: cover;
+}
+
 button {
   margin: 20px 0;
   line-height: 34px;
@@ -19,8 +29,6 @@ button {
   user-select: none;
   outline:none !important;
   width:100%;
-  font-family : inherit;
-  font-size: 1em;
 }
 
 button:active {
