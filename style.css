@@ -13,7 +13,7 @@ body{
 
 body {
   /* The image used */
-  background-image: url("music.jpg"); 
+  background-image: url("music-col.jpg"); 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
