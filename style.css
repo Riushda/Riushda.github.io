@@ -13,12 +13,12 @@ body{
 
 body {
   /* The image used */
-  background-image: url("music.jpg");
-
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-repeat: repeat;
+  background-image: url("music.jpg"); 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
+  min-height:100%;
 }
 
 button {
