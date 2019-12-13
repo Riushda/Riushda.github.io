@@ -1,11 +1,15 @@
+@font-face {
+  font-family: cow-boy;
+  src: url(BONESOUP.otf);
+}
 
-/*Remove that CSS*/
-.col-md-3 {
-    margin-left:5%;
-    }
-/*Remove that CSS*/
+h1{
+  font-family: cow-boy;
+}
 
-
+body{
+  font-family: cow-boy;
+}
 
 button {
   margin: 20px 0;
@@ -15,6 +19,8 @@ button {
   user-select: none;
   outline:none !important;
   width:100%;
+  font-family : inherit;
+  font-size: 1em;
 }
 
 button:active {
@@ -23,7 +29,6 @@ button:active {
 }
 
 button.ribbon {
-  
   outline:none;
   outline-color: transparent;
 }
