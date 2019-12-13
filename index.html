@@ -17,7 +17,7 @@
             <h1 class="h1" style="text-align:center">Musics List</h1>
             <div class="container">
                 <div class="row">
-                    <div class="col-lg" id="dynamic">    
+                    <div class="col-" id="dynamic">      
                     </div>
                 </div>
             </div>
@@ -68,9 +68,14 @@
 
 					newButton.innerHTML = array[i].split(".")[0]
 
+                    //"<span class='spinner-border spinner-border-sm'></span>"
+
 					newButton.classList.add("btn")
                     newButton.classList.add(styles[s])
                     newButton.classList.add("ribbon")
+                    //newButton.classList.add("btn-outline")
+
+                    newButton.style.marginBottom = "20px"
 
 					dynamic.appendChild(newButton)
 
