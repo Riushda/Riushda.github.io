@@ -303,7 +303,7 @@ keyframes active {
   height: 50px;
 }
 .menu-button:hover a:nth-child(2) {
-  left: 80px;
+  left: 120px;
   bottom: 0px;
 }
 .menu-button:hover a:nth-child(2):hover {
@@ -313,8 +313,8 @@ keyframes active {
   background: #3ea1ec;
 }
 .menu-button:hover a:nth-child(3) {
-  left: 65px;
-  bottom: 65px;
+  left: 105px;
+  bottom: 105px;
 }
 .menu-button:hover a:nth-child(3):hover {
   -webkit-transition-delay: 0s;
@@ -324,7 +324,7 @@ keyframes active {
 }
 .menu-button:hover a:nth-child(4) {
   right: 0px;
-  bottom: 80px;
+  bottom: 120px;
 }
 .menu-button:hover a:nth-child(4):hover {
   -webkit-transition-delay: 0s;
