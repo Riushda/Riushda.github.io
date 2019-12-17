@@ -333,6 +333,16 @@ keyframes active {
   background: #323232;
 }
 
+#pause{
+  left: 10px;
+  bottom: 80px;
+  height: 100%;
+  width: 60%;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
 /*---FOR MOBILE VIEW---*/
 @media screen and (max-width: 400px) {
   h1 {
