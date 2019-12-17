@@ -67,7 +67,7 @@ db.collection("musics").get().then(function(querySnapshot) {
 
     //BOUTON STOP
 
-    var stop = document.createElement("a")
+    /*var stop = document.createElement("a")
 
     stop.setAttribute( "onClick", "request('"+prefix+"stop');" );
 
@@ -78,6 +78,6 @@ db.collection("musics").get().then(function(querySnapshot) {
     stop.classList.add("ribbon")
     stop.classList.add("button")
 
-    dynamic.appendChild(stop);
+    dynamic.appendChild(stop);*/
 
 });
