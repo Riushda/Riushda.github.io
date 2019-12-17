@@ -235,8 +235,8 @@ keyframes active {
   -moz-transition: 0.4s;
   transition: 0.4s;
   position: fixed;
-  left: 50px;
-  bottom: 50px;
+  left: 25px;
+  bottom: 25px;
   width: 60px;
   height: 60px;
   text-align: center;
