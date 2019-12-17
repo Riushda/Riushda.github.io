@@ -114,8 +114,7 @@ a.btn-default:before {
   border-color: #ac2925 transparent #ac2925 #ac2925;
     }
     
-
-    /*================================= TEST ============================*/
+/*================================= Button animation ============================*/
 
 /* Hover state animation applied here */
 .button:hover { 

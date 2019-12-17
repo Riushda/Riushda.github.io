@@ -8,8 +8,8 @@ var xhr = new XMLHttpRequest();
 
 function request(url){
  console.log(url)
- //xhr.open('GET', url, true);
- //xhr.send(null); //A décommenter pour lancer la musique
+ xhr.open('GET', url, true);
+ xhr.send(null); //A décommenter pour lancer la musique
 }
 
 firebase.initializeApp({
