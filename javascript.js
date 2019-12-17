@@ -7,9 +7,9 @@
 var xhr = new XMLHttpRequest();
 
 function request(url){
-console.log(url)
- xhr.open('GET', url, true);
- xhr.send(null); //A décommenter pour lancer la musique
+ console.log(url)
+ //xhr.open('GET', url, true);
+ //xhr.send(null); //A décommenter pour lancer la musique
 }
 
 firebase.initializeApp({
@@ -43,7 +43,7 @@ db.collection("musics").get().then(function(querySnapshot) {
 
     for(var i=0; i<array.length; i++){
 
-        var newButton = document.createElement("button")
+        var newButton = document.createElement("a")
 
         newButton.setAttribute( "onClick", "request('"+prefix+array[i]+"');" )
 
@@ -52,6 +52,7 @@ db.collection("musics").get().then(function(querySnapshot) {
         newButton.classList.add("btn") //
         newButton.classList.add(styles[s])
         newButton.classList.add("ribbon")
+        newButton.classList.add("button")
 
         newButton.style.marginBottom = "20px"
 
@@ -66,7 +67,7 @@ db.collection("musics").get().then(function(querySnapshot) {
 
     //BOUTON STOP
 
-    var stop = document.createElement("button")
+    var stop = document.createElement("a")
 
     stop.setAttribute( "onClick", "request('"+prefix+"stop');" );
 
@@ -75,6 +76,7 @@ db.collection("musics").get().then(function(querySnapshot) {
     stop.classList.add("btn")
     stop.classList.add(styles[s])
     stop.classList.add("ribbon")
+    stop.classList.add("button")
 
     dynamic.appendChild(stop);
 
