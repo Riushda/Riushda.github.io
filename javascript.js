@@ -13,15 +13,17 @@ function addClass(){
   
 }
 
-$('body').click(function(){
-   var element = document.body.children[2].children[0]
+$('body').each(function(){
+  this.onclick = function() {
+     var element = document.body.children[2].children[0]
 
-  if(element.classList.contains('test')==true){
-   
-    element.classList.remove("test")
-  }
+     if(element.classList.contains('test')==true){
+
+      element.classList.remove("test")
+    }
+
+  } 
 });
-
 
 // INITIALISATION DE LA PAGE HTML A PARTIR D'ICI
 
