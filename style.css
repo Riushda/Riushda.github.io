@@ -347,3 +347,15 @@ keyframes active {
     font-size: 25px;
   }
 }
+
+/*============================================= TEST ==============================================*/
+
+.test:hover { 
+  -webkit-animation: wiggle .05s alternate ease infinite;
+  animation: wiggle .05s alternate ease infinite;
+}
+
+@keyframes wiggle {
+  from { transform: rotate(-10deg); }
+  to   { transform: rotate(10deg); }
+}
