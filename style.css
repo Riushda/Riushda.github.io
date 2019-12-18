@@ -350,7 +350,7 @@ keyframes active {
 
 /*============================================= TEST ==============================================*/
 
-.test:hover { 
+.test { 
   -webkit-animation: wiggle .05s alternate ease infinite;
   animation: wiggle .05s alternate ease infinite;
 }

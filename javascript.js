@@ -1,5 +1,26 @@
 // FONCTIONS UTILES
+function addClass(){
+  setTimeout(function(){ 
 
+    var element = document.body.children[2].children[0]
+
+    if(element.classList.contains('test')==false){
+      console.log("proute")
+      element.classList.add("test");
+    }
+
+  }, 200);
+  
+}
+
+$('body').click(function(){
+   var element = document.body.children[2].children[0]
+
+  if(element.classList.contains('test')==true){
+   
+    element.classList.remove("test")
+  }
+});
 
 
 // INITIALISATION DE LA PAGE HTML A PARTIR D'ICI
@@ -7,6 +28,7 @@
 var xhr = new XMLHttpRequest();
 
 function request(url){
+ document.body.children[2].children[0].classList.add("test")
  console.log(url)
  xhr.open('GET', url, true);
  xhr.send(null); //A décommenter pour lancer la musique
