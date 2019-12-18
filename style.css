@@ -30,6 +30,9 @@ a {
   user-select: none;
   outline:none !important;
   width:100%;
+  outline: none;
+  text-decoration : none; 
+  color : #000;
 }
 
 a:active {
@@ -127,7 +130,6 @@ a.btn-default:before {
 .button:active {
   -webkit-animation: active 1200ms ease 1 alternate;
   animation: active 1200ms ease 1 alternate; 
-  background: #5F9BE0;
 }
 .gray { background: #D2D2D2; }
 .gray:active { background: #b9b9b9; }
