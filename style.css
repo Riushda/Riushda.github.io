@@ -275,8 +275,8 @@ keyframes active {
   -moz-transition-delay: 0.3s;
   transition-delay: 0.3s;
   position: fixed;
-  left: 0px;
-  bottom: 80px;
+  left: 30px;
+  bottom: 30px;
   background: #55acee;
 }
 .menu-button a:nth-child(3) {
@@ -284,8 +284,8 @@ keyframes active {
   -moz-transition-delay: 0.4s;
   transition-delay: 0.4s;
   position: fixed;
-  left: 0px;
-  bottom: 150px;
+  left: 30px;
+  bottom: 30px;
   background: #dc4e41;
 }
 .menu-button a:nth-child(4) {
@@ -293,8 +293,8 @@ keyframes active {
   -moz-transition-delay: 0.5s;
   transition-delay: 0.5s;
   position: fixed;
-  left: 0px;
-  bottom: 220px;
+  left: 30px;
+  bottom: 30px;
   background: #3F3F3F;
 }
 .menu-button:hover a {
