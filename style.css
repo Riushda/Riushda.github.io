@@ -274,27 +274,27 @@ keyframes active {
   -webkit-transition-delay: 0.3s;
   -moz-transition-delay: 0.3s;
   transition-delay: 0.3s;
-  position: absolute;
-  left: 30px;
-  bottom: 30px;
+  position: fixed;
+  left: 0px;
+  bottom: 80px;
   background: #55acee;
 }
 .menu-button a:nth-child(3) {
   -webkit-transition-delay: 0.4s;
   -moz-transition-delay: 0.4s;
   transition-delay: 0.4s;
-  position: absolute;
-  left: 30px;
-  bottom: 30px;
+  position: fixed;
+  left: 0px;
+  bottom: 150px;
   background: #dc4e41;
 }
 .menu-button a:nth-child(4) {
   -webkit-transition-delay: 0.5s;
   -moz-transition-delay: 0.5s;
   transition-delay: 0.5s;
-  position: absolute;
-  right: 30px;
-  bottom: 30px;
+  position: fixed;
+  left: 0px;
+  bottom: 220px;
   background: #3F3F3F;
 }
 .menu-button:hover a {
@@ -303,8 +303,8 @@ keyframes active {
   height: 60px;
 }
 .menu-button:hover a:nth-child(2) {
-  left: 0px;
-  bottom: 60px;
+  left: 25px;
+  bottom: 80px;
 }
 .menu-button:hover a:nth-child(2):hover {
   -webkit-transition-delay: 0s;
@@ -313,8 +313,8 @@ keyframes active {
   background: #3ea1ec;
 }
 .menu-button:hover a:nth-child(3) {
-  left: 0px;
-  bottom: 130px;
+  left: 25px;
+  bottom: 150px;
 }
 .menu-button:hover a:nth-child(3):hover {
   -webkit-transition-delay: 0s;
@@ -323,8 +323,8 @@ keyframes active {
   background: #d83a2b;
 }
 .menu-button:hover a:nth-child(4) {
-  right: 0px;
-  bottom: 200px;
+  left: 25px;
+  bottom: 220px;
 }
 .menu-button:hover a:nth-child(4):hover {
   -webkit-transition-delay: 0s;
