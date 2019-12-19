@@ -4,9 +4,8 @@ function addClass(){
 
     var element = document.body.children[2].children[0]
 
-    if(element.classList.contains('test')==false){
-      console.log("proute")
-      element.classList.add("test");
+    if(element.classList.contains('rotating')==false){
+      element.classList.add("rotating");
     }
 
   }, 200);
@@ -16,9 +15,9 @@ function addClass(){
 $('body').on('click touchstart', function () {
      var element = document.body.children[2].children[0]
 
-     if(element.classList.contains('test')==true){
+     if(element.classList.contains('rotating')==true){
 
-      element.classList.remove("test")
+      element.classList.remove("rotating")
     }
 });
 
